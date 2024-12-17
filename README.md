@@ -1,5 +1,5 @@
-# India en tribu
-Landing page for India en tribu, a travelling agency that takes people into a spiritual journey around India. All components are hardcoded, no libraries.
+# Jyotish del sur
+Landing page for Federico Assunto, a vedic astrologist. All components are hardcoded, no libraries.
 
 ### Used technologies
 <p align="left" textDecoration='none'> 
