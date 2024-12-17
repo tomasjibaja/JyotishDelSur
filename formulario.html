@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto - JDS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100&family=Montserrat:wght@200;400&family=Open+Sans:wght@300;500;700&family=Questrial&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a class="return-link" href="./index.html#servicios"><h3><span class="return-button">&lt;</span>  VOLVER A LA PÁGINA PRINCIPAL</h3></a>
+    <h1 class="form-title">FORMULARIO DE CONTACTO</h1>
+    <h2 class="form-subtitle">ABONOS ESPECIALES</h2>
+    <div class="form-section">
+        <div class="form-wrapper">
+            <form class="formulario" action="https://formsubmit.co/jyotishdelsur@gmail.com" method="POST">
+                <label for="nombre">NOMBRE Y APELLIDO</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre completo" required>
+    
+                <label for="telefono">TELÉFONO</label>
+                <input type="text" name="telefono" id="telefono" pattern="[0-9]+" placeholder="Número de teléfono o celular" required>
+                
+                <label for="email">E-MAIL</label>
+                <input type="email" name="email" id="email" placeholder="Dirección de email" required>
+    
+                <label for="institucion">INSTITUCIÓN</label>
+                <input type="text" name="institucion" id="institucion" placeholder="Institución" required>
+    
+                <label for="servicio">SERVICIO SOLICITADO</label>
+                <select name="servicio" id="servicio" placeholder="Selecciona un servicio" required>
+                    <option value="por-defecto" selected disabled>Selecciona un servicio</option>
+                    <option value="seleccion-personal">Astrología para selección de personal</option>
+                    <option value="educadores">Astrología para educadores</option>
+                    <option value="medicos-terapeutas">Astrología para médicos y terapeutas</option>
+                    <option value="otro">Otros</option>
+                </select>
+    
+                <label for="comentario">COMENTARIO ADICIONAL</label>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" maxlength="200" placeholder="Escribe lo que consideres necesario"></textarea>
+
+                <input type="hidden" name="_next" value="http://www.jyotishdelsur.com/jds2023/gracias.html">
+                <input type="hidden" name="_subject" value="Consulta astrologica">
+                <input type="hidden" name="_captcha" value="false">
+    
+                <button type="submit">ENVIAR</button>
+           </form> 
+        </div>
+    </div>
+</body>
+</html>
